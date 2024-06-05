@@ -775,3 +775,11 @@ mlperf_inference_no_external_datasets:
         - inference_mlperf_ssd:
             - args:
               accel-sim-mem: 60G
+
+
+test:
+    exec_dir: "/home/pei1005/accel-sim-framework/cublas_example/"
+    data_dirs: ""
+    execs:
+        - cublas_test_sptc:
+            - args:
